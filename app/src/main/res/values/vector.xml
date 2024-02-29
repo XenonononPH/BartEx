@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="Currencies">
+		<item> ~ Please select a currency. ~</item>
+		<item> United Arab Emirates Dirham (AED) </item>
+		<item> Great Britain Pound (GBP) </item>
+		<item> United States Dollar (USD) </item>
+	</string-array>
+</resources>

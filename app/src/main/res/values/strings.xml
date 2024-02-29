@@ -1,0 +1,37 @@
+<resources>
+	<string name="app_name">BartEx</string>
+	<string name="convert">Convert</string>
+	<string name="swap">Swap</string>
+	<string name="currency">Currency</string>
+	<string name="into">Currency into</string>
+	<string name="amount">Amount Money</string>
+	<string name="space"/>
+	<string name="history">History</string>
+	<string name="back">back</string>
+	<string name="delete">Delete History</string>
+	<string name="rates">Rates</string>
+
+	<string name="Welcome">Welcome to BartEx!</string>
+	<string name="Description">BartEx is a Money Converter App for your travelling needs.</string>
+	<string name="How">To start, select a currency you would like to use on the first dropdown option. Then, enter an
+		amount on the blank form.
+	</string>
+	<string name="Then">After that, select another currency to convert the amount and press Convert!</string>
+	<string name="Rate">You can view the rates on the tiny text of Rates.</string>
+	<string name="Swap">Press Swap for an immediate swap of options.</string>
+	<string name="History">Press History to see your previous transactions. You can delete your previous transactions
+		there.
+	</string>
+
+	<string name="USD">USD</string>
+	<string name="AED">AED</string>
+	<string name="GBP">GBP</string>
+	<string name="AEDtoGBP">to GBP = 0.20</string>
+	<string name="AEDtoUSD">to USD = 0.27</string>
+	<string name="GBPtoAED">to AED = 4.94</string>
+	<string name="GBPtoUSD">to USD = 1.34</string>
+	<string name="USDtoAED">to AED = 3.67</string>
+	<string name="USDtoGBP">to GBP = 0.74</string>
+
+	<string name="History_List_Key">History_List_Key</string>
+</resources>

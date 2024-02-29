@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   android:orientation="vertical" android:weightSum="10"
+                                                   tools:context=".History">
+
+	<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+	              android:orientation="horizontal" android:background="@color/darkMode" android:weightSum="8"
+	              app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+	              android:id="@+id/linearLayout2" app:layout_constraintTop_toTopOf="parent"
+	              android:layout_marginBottom="472dp" app:layout_constraintBottom_toTopOf="@+id/bottom">
+		<ImageButton
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" app:srcCompat="@drawable/abc_vector_test" android:id="@+id/Back"
+				android:layout_margin="5dp"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+				app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.044"
+				app:layout_constraintVertical_bias="0.023" android:contentDescription="@string/back"
+				android:layout_weight="1"/>
+
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/history"
+		          android:text="@string/history" android:textSize="32sp" android:layout_margin="5dp"
+		          android:layout_gravity="center" android:textAlignment="center" android:textColor="@color/WhiteBG"
+		          android:textAppearance="@style/TextAppearance.AppCompat.Title"
+		          app:layout_constraintStart_toEndOf="@+id/Back" android:layout_weight="7"/>
+	</LinearLayout>
+
+	<ListView android:layout_width="match_parent" android:layout_height="0dp" android:id="@+id/historyList"
+	          android:layout_margin="5dp" android:paddingLeft="3dp" android:paddingRight="3dp"
+	          android:layout_weight="0.1" android:scrollbarStyle="outsideOverlay"
+	          app:layout_constraintStart_toStartOf="parent"
+	          app:layout_constraintBottom_toTopOf="@+id/bottom"
+	          app:layout_constraintTop_toBottomOf="@+id/linearLayout2" app:layout_constraintEnd_toEndOf="parent"
+	          app:layout_constraintHorizontal_bias="0.444" app:layout_constraintVertical_bias="0.025"
+	          android:background="#FFFFFF">
+	</ListView>
+	<LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:id="@+id/bottom"
+	              android:orientation="horizontal" android:paddingBottom="8dp" android:paddingTop="2dp"
+	              android:layout_weight="9.9"
+	              android:background="@color/darkMode" app:layout_constraintBottom_toBottomOf="parent"
+	              app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+	              app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+		<LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+		              android:orientation="vertical">
+			<Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+			        android:text="@string/delete" android:textColor="@android:color/black"
+			        android:id="@+id/del" android:layout_gravity="center" android:layout_marginTop="32dp"/>
+		</LinearLayout>
+	</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

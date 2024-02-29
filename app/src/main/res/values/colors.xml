@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="colorPrimary">#DAD307</color>
+	<color name="colorPrimaryDark">#D98324</color>
+	<color name="backgroundColor">#303030</color>
+	<color name="reddish">#A40606</color>
+	<color name="green">#293F14</color>
+	<color name="greenLighter">#3C5029</color>
+	<color name="darkMode">#222</color>
+	<color name="WhiteBG">#FCFCFC</color>
+	<color name="popup">#BDBDBD</color>
+	<color name="Text">#D3D3D3</color>
+	<color name="colorAccent">#230007</color>
+	<color name="Black">#000000</color>
+</resources>
